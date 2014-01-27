@@ -1,3 +1,6 @@
+@import "variables";
+
+
 .dropdown-arrow-inverse {
   border-bottom-color: #808080 !important;
   border-top-color: #808080 !important;
@@ -10,7 +13,7 @@
   text-align: center;
 }
 .demo-logo {
-  font: 900 90px/100px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 900 90px/100px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: -2px;
   margin: 10px 0;
 }
@@ -68,7 +71,8 @@
 .demo-panel-title {
   padding-top: 20px;
   margin: 2px 0 20px;
-  font: bold 23px/40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: bold 23px/40px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:700;
 }
 .demo-panel-title small {
   color: #798795;

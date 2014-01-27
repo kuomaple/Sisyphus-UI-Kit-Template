@@ -11,10 +11,15 @@
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Loading UI Kit -->
-    <link href="css/sass/variables.css.scss" rel="stylesheet">
-    <link href="css/sass/flat-ui.css.scss" rel="stylesheet">
-    <link href="css/sass/demo.css.scss" rel="stylesheet">
-    <link href="css/sass/color.css.scss" rel="stylesheet">
+    <link href="css/variables.css.scss" rel="stylesheet">
+    <link href="css/navbar.css.scss" rel="stylesheet">
+    <link href="css/interactions.css.scss" rel="stylesheet">
+    <link href="css/demo.css.scss" rel="stylesheet">
+    <link href="css/color.css.scss" rel="stylesheet">
+    <link href="css/sidebar.css.scss" rel="stylesheet">
+    <link href="css/typography.css.scss" rel="stylesheet">
+    <link href="css/footer.css.scss" rel="stylesheet">
+    <link href="css/UI-kit-only.css.scss" rel="stylesheet">
 
     <link rel="shortcut icon" href="images/favicon.ico">
 
@@ -25,36 +30,6 @@
     <![endif]-->
   </head>
   <body>
-    <div id="header-bar">
-        <h1 class="identity">
-          EasyGroup
-          <small>User Interface Kit</small>
-        </h1>
-      </div> <!-- /identity -->
-      
-    	<div class="col-md-2" style="float:right; top: -86px;">
-          <select name="herolist" value="Projects" class="select-block">
-            <option value="0">Choose hero</option>
-            <option value="1">Spider Man</option>
-            <option value="2">Wolverine</option>
-            <option value="3">Captain America</option>
-            <option value="X-Men" selected="selected">Projects</option>
-            <option value="Crocodile">Crocodile</option>
-          </select>
-        </div>
-          
-    	<div class="col-md-2" style="float:right; top: -86px;">
-          <select name="herolist" value="Jordan Smith" class="select-block">
-            <option value="0">Choose hero</option>
-            <option value="1">Spider Man</option>
-            <option value="2">Wolverine</option>
-            <option value="3">Captain America</option>
-            <option value="X-Men" selected="selected">Jordan Smith</option>
-            <option value="Crocodile">Crocodile</option>
-          </select>
-      	</div>
-    </div> <!-- /header-bar -->
-
       <div class="row demo-row">
         <div class="col-xs-12">
           <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
@@ -85,6 +60,8 @@
                </ul>
             </div><!-- /.navbar-collapse -->
           </nav><!-- /navbar -->
+        </div>
+      </div>
 
     <div class="container">
 
@@ -95,11 +72,10 @@
 	      <div class="row">
         <div class="col-md-5">
 		<div class="progress">
-            <div class="progress-bar color-one" style="width: 40%;"></div>
-            <div class="progress-bar color-two" style="width: 10%;"></div>
-            <div class="progress-bar color-three" style="width: 10%;"></div>
-            <div class="progress-bar color-four" style="width: 10%;"></div>
-            <div class="progress-bar color-five" style="width: 10%;"></div>
+            <div class="progress-bar palette-orange" style="width: 40%;"></div>
+            <div class="progress-bar palette-yellow" style="width: 10%;"></div>
+            <div class="progress-bar palette-blue" style="width: 10%;"></div>
+            <div class="progress-bar palette-ygreen" style="width: 10%;"></div>
           </div>
          </div>
          </div>
@@ -160,22 +136,22 @@
 			<div class="sidebar">
 				<p>Name One</p>
 				<div class="progress">
-            		<div class="progress-bar color-one" style="width: 45%;"></div>
+            		<div class="progress-bar palette-orange" style="width: 45%;"></div>
           		</div>
           		
           		<p>Name Two</p>
 				<div class="progress">
-            		<div class="progress-bar color-two" style="width: 25%;"></div>
+            		<div class="progress-bar palette-yellow" style="width: 25%;"></div>
           		</div>
           		
           		<p>Name Three</p>
 				<div class="progress">
-            		<div class="progress-bar color-three" style="width: 15%;"></div>
+            		<div class="progress-bar palette-ygreen" style="width: 15%;"></div>
           		</div>
           		
           		<p>Name Four</p>
 				<div class="progress">
-            		<div class="progress-bar color-four" style="width: 85%;"></div>
+            		<div class="progress-bar palette-blue" style="width: 85%;"></div>
           		</div>
 			</div>
 		</div>
@@ -213,15 +189,16 @@
         <div class="col-md-5">
           <h3 class="demo-panel-title">Progress bars &amp; Sliders</h3>
           <div class="progress">
-            <div class="progress-bar" style="width: 45%;"></div>
+            <div class="progress-bar palette-turquoise" style="width: 45%;"></div>
           </div>
           <br/>
           <div class="progress">
-            <div class="progress-bar" style="width: 40%;"></div>
-            <div class="progress-bar color-one" style="width: 10%;"></div>
-            <div class="progress-bar color-two" style="width: 10%;"></div>
-            <div class="progress-bar color-three" style="width: 10%;"></div>
-            <div class="progress-bar color-four" style="width: 10%;"></div>
+            <div class="progress-bar palette-orange" style="width: 30%;"></div>
+            <div class="progress-bar palette-yellow" style="width: 10%;"></div>
+            <div class="progress-bar palette-green" style="width: 15%;"></div>
+            <div class="progress-bar palette-blue" style="width: 10%;"></div>
+            <div class="progress-bar palette-purple" style="width: 15%;"></div>
+            <div class="progress-bar palette-ygreen" style="width: 10%;"></div>
           </div>
           <br/>
         
@@ -405,12 +382,35 @@
               <dd>Charcoal dark</dd>
             </dl>
           </div> <!-- /swatches items --> 
-
-
-
     </div> <!-- /container -->
+</div>
+</div>
+</div>
+</div>
 
-    
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-7">
+                <h3 class="footer-title">Footer</h3>
+                <p>Content goes here
+                </p>
+          </div> <!-- /col-xs-7 -->
+
+          <div class="col-xs-5">
+            <div class="footer-banner">
+              <h3 class="footer-title">Get connected!</h3>
+              <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <!-- Load JS here for greater good =============================-->
     <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
