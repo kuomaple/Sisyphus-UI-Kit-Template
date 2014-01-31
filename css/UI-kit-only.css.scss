@@ -1,10 +1,15 @@
+/* 
+------------------------------ 
+UI KIT ONLY
+
+This document is only needed to format the UI kit.
+It is not necessary for the actual working site.
+
+------------------------------ 
+*/
+
 @import "variables";
 
-
-.dropdown-arrow-inverse {
-  border-bottom-color: #808080 !important;
-  border-top-color: #808080 !important;
-}
 .container {
   max-width: 970px !important;
 }
@@ -62,11 +67,6 @@
   padding-left: 25%;
   margin-bottom: 40px;
   position: relative;
-}
-.demo-section-title {
-  font: 900 32px/40px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight:400;
-  margin: 10px 0;
 }
 .demo-panel-title {
   padding-top: 20px;
@@ -134,4 +134,50 @@
 .demo-swatches-row .swatches-desc-col {
   width: 140px;
   margin-left: 20px;
+}
+
+
+.pallete-item {
+  width: 140px;
+  float: left;
+  margin: 0 0 20px 20px;
+}
+.palette {
+  font-size: 12px;
+  line-height: 1.214;
+  color: #ffffff;
+  margin: 0;
+  padding: 15px;
+  text-transform: uppercase;
+}
+.palette dt,
+.palette dd {
+  line-height: 1.429;
+}
+.palette dt {
+  display: block;
+  font-weight: bold;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.palette dd {
+  font-weight: 300;
+  margin-left: 0;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+.palette-paragraph {
+  color: #7f8c8d;
+  font-size: 12px;
+  line-height: 17px;
+}
+.palette-paragraph span {
+  color: #bdc3c7;
+}
+.palette-headline {
+  color: #7f8c8d;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: -3px;
 }

@@ -432,13 +432,6 @@ h6 .small,
   color: #999999;
 }
 
-h1,
-h2,
-h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
 h1 small,
 h2 small,
 h3 small,
@@ -447,14 +440,6 @@ h2 .small,
 h3 .small {
   font-size: 65%;
 }
-
-h4,
-h5,
-h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
 h4 small,
 h5 small,
 h6 small,
@@ -3535,7 +3520,6 @@ input[type="button"].btn-block {
   background-color: #ffffff;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
